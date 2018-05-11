@@ -1,0 +1,7 @@
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\ListaEncadeada.exe.config
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\ListaEncadeada.exe
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\ListaEncadeada.pdb
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\ListaEncadeada.csprojResolveAssemblyReference.cache
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\ListaEncadeada.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\ListaEncadeada.exe
+C:\Users\aluno\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\ListaEncadeada.pdb
