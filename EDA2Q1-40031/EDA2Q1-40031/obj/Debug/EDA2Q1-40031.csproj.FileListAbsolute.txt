@@ -1,0 +1,6 @@
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\bin\Debug\EDA2Q1-40031.exe.config
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\bin\Debug\EDA2Q1-40031.exe
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\bin\Debug\EDA2Q1-40031.pdb
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\obj\Debug\EDA2Q1-40031.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\obj\Debug\EDA2Q1-40031.exe
+c:\users\aluno\documents\visual studio 2017\Projects\EDA2Q1-40031\EDA2Q1-40031\obj\Debug\EDA2Q1-40031.pdb

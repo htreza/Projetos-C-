@@ -1,0 +1,7 @@
+E:\Rinaldo\EDAT540038\EDAT540038\bin\Debug\EDAT540038.exe.config
+E:\Rinaldo\EDAT540038\EDAT540038\bin\Debug\EDAT540038.exe
+E:\Rinaldo\EDAT540038\EDAT540038\bin\Debug\EDAT540038.pdb
+E:\Rinaldo\EDAT540038\EDAT540038\obj\Debug\EDAT540038.csprojResolveAssemblyReference.cache
+E:\Rinaldo\EDAT540038\EDAT540038\obj\Debug\EDAT540038.csproj.CoreCompileInputs.cache
+E:\Rinaldo\EDAT540038\EDAT540038\obj\Debug\EDAT540038.exe
+E:\Rinaldo\EDAT540038\EDAT540038\obj\Debug\EDAT540038.pdb
