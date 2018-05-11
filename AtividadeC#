@@ -1,0 +1,309 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    class Program
+    {
+        static int SomaNum(int n)
+        {
+            if (n == 0)
+            {
+                return n;
+            }
+            else
+            {
+                return n + SomaNum(n - 1);
+            }
+        }
+        static int SomaNumInt(int n)
+        {
+            if (n <= 0)
+            {
+                return n;
+            }
+            else
+            {
+                int b = 0;
+                for (int a = 0; a <= n; a++)
+                {
+                    b += a;
+                }
+
+                return b;
+            }
+        }
+        static int SomaVetor(int[] v, int n)
+        {
+            if (n >= v.Length)
+            {
+                return 0;
+            }
+            else
+            {
+                return v[n] + SomaVetor(v, n + 1);
+            }
+        }
+
+        static int SomaVetorInt(int[] v)
+        {
+            int a = 0;
+            for (int b = 0; b < v.Length; b++)
+            {
+                a += v[b];
+            }
+            return a;
+        }
+        static int SomaVetorPares(int[] v, int n)
+        {
+            if (n >= v.Length)
+            {
+                return 0;
+            }
+            else
+            {
+                if (v[n] % 2 == 0)
+                {
+                    return v[n] + SomaVetorPares(v, n + 1);
+                }
+                else
+                {
+                    return SomaVetorPares(v, n + 1);
+                }
+            }
+        }
+        static int SomaVetorParesInt(int[] v)
+        {
+            int a = 0;
+            for (int b = 0; b < v.Length; b++)
+            {
+                if (v[b] % 2 == 0)
+                {
+                    a += v[b];
+                }
+            }
+            return a;
+        }
+        static int QuantosVetorImpares(int[] v, int n, int t = 0)
+        {
+            if (n >= v.Length)
+            {
+                return t;
+            }
+            else
+            {
+                if (v[n] % 2 == 0)
+                {
+                    return QuantosVetorImpares(v, n + 1, t);
+                }
+                else
+                {
+                    return QuantosVetorImpares(v, n + 1, t + 1);
+
+                }
+            }
+        }
+        static int QuantosVetorImparesInt(int[] v)
+        {
+            int a = 0;
+            for (int b = 0; b < v.Length; b++)
+            {
+                if (v[b] % 2 != 0)
+                {
+                    a++;
+                }
+            }
+            return a;
+        }
+        static int QuantosNoVetor(int[] v, int n, int q, int t = 0)
+        {
+            if (n >= v.Length)
+            {
+                return t;
+            }
+            else
+            {
+                if (v[n] == q)
+                {
+                    return QuantosNoVetor(v, n + 1, q, t + 1);
+                }
+                else
+                {
+                    return QuantosNoVetor(v, n + 1, q, t);
+
+                }
+            }
+        }
+        static int QuantosNoVetorInt(int[] v, int n)
+        {
+            int a = 0;
+            for (int b = 0; b < v.Length; b++)
+            {
+                if (v[b] == n)
+                {
+                    a++;
+                }
+            }
+            return a;
+        }
+
+        static int MaiorDivisorComum(int n1, int n2)
+        {
+            if (n1 % n2 == 0)
+            {
+                return n2;
+            }
+            else
+            {
+                return MaiorDivisorComum(n2, n1 - n2);
+            }
+        }
+
+        static int MaiorDivisorComumInt(int n1, int n2)
+        {
+            int n3;
+            while (n1 % n2 != 0)
+            {
+                n3 = n2;
+                n2 = n1 - n2;
+                n1 = n3;
+            }
+            return n2;
+        }
+        static int MaiorDoVetor(int[] v, int p, int n = 0)
+        {
+            if (p >= v.Length)
+            {
+                return n;
+            }
+            else
+            {
+                if (v[p] > n)
+                {
+                    return MaiorDoVetor(v, p + 1, v[p]);
+                }
+                else
+                {
+                    return MaiorDoVetor(v, p + 1, n);
+                }
+            }
+        }
+
+        static int MaiorDoVetorInt(int[] v)
+        {
+            int a = v[0];
+            for (int b = 0; b < v.Length; b++)
+            {
+                if (v[b] > a)
+                {
+                    a = v[b];
+                }
+            }
+            return a;
+        }
+        static int SomaDigitos(int n)
+        {
+            int a, b;
+            a = n % 10;
+            b = (n - a) / 10;
+
+            if (b <= 0)
+            {
+                return a;
+            }
+            else
+            {
+                return a + SomaDigitos(b);
+            }
+        }
+
+        static int SomaDigitosInt(int n)
+        {
+            int a, b, c = 0;
+            do
+            {
+                a = n % 10;
+                b = (n - a) / 10;
+                c += a;
+                n = b;
+            } while (b != 0);
+
+            return c;
+        }
+        static string ConversaoBinario(int n, string b = "" )
+        {
+            if (n <= 0)
+            {
+                char[] arrChar = b.ToCharArray();
+                Array.Reverse(arrChar);
+                b = new String(arrChar);
+                return b;
+            }
+            else
+            {
+                int resto = n % 2;
+                int divisao = (n - resto) / 2;
+                b += resto;
+                return ConversaoBinario(divisao, b);
+            }
+        }
+        static string ConversaoBinarioInt(int n)
+        {
+            string b = "";
+            int r, d;           
+            do
+            {
+                r = n % 2;                
+                d  = (n - r) / 2;                
+                b += r;
+                n = d;
+            }
+            while (d != 0);
+
+            char[] arrChar = b.ToCharArray();
+            Array.Reverse(arrChar);
+            b = new String(arrChar);
+
+            return b;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(SomaNum(5));
+            Console.WriteLine(SomaNumInt(5));
+            int[] v = { 1, 2, 3, 4, 5, 6, 1 };
+
+            Console.WriteLine(SomaVetor(v, 0));
+            Console.WriteLine(SomaVetorInt(v));
+
+            Console.WriteLine(SomaVetorPares(v, 0));
+            Console.WriteLine(SomaVetorParesInt(v));
+
+            Console.WriteLine(QuantosVetorImpares(v, 0));
+            Console.WriteLine(QuantosVetorImparesInt(v));
+
+            Console.WriteLine(QuantosNoVetor(v, 0, 1));
+            Console.WriteLine(QuantosNoVetorInt(v, 1));
+
+            Console.WriteLine(MaiorDivisorComum(90, 54));
+            Console.WriteLine(MaiorDivisorComumInt(90, 54));
+
+            Console.WriteLine(MaiorDoVetor(v, 0));
+            Console.WriteLine(MaiorDoVetorInt(v));
+
+            Console.WriteLine(SomaDigitos(654));
+            Console.WriteLine(SomaDigitosInt(654));
+
+            Console.WriteLine(ConversaoBinario(128));
+            Console.WriteLine(ConversaoBinarioInt(128));
+
+            Console.ReadKey();
+        }
+
+
+
+    }
+}
