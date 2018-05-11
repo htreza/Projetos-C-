@@ -1,0 +1,6 @@
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\bin\Debug\Exercicio6.exe.config
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\bin\Debug\Exercicio6.exe
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\bin\Debug\Exercicio6.pdb
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\obj\Debug\Exercicio6.csproj.CoreCompileInputs.cache
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\obj\Debug\Exercicio6.exe
+C:\Users\rinal\source\repos\Exercicio6\Exercicio6\obj\Debug\Exercicio6.pdb
