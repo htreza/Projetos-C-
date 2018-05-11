@@ -1,0 +1,6 @@
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\obj\Debug\Exercicio10.csproj.CoreCompileInputs.cache
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\bin\Debug\Exercicio10.exe.config
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\bin\Debug\Exercicio10.exe
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\bin\Debug\Exercicio10.pdb
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\obj\Debug\Exercicio10.exe
+C:\Users\rinal\source\repos\Exercicio10\Exercicio10\obj\Debug\Exercicio10.pdb

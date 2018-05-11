@@ -1,0 +1,6 @@
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\bin\Debug\Exercicio8.exe.config
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\bin\Debug\Exercicio8.exe
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\bin\Debug\Exercicio8.pdb
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\obj\Debug\Exercicio8.csproj.CoreCompileInputs.cache
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\obj\Debug\Exercicio8.exe
+C:\Users\rinal\source\repos\Exercicio8\Exercicio8\obj\Debug\Exercicio8.pdb
